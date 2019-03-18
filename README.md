@@ -46,3 +46,9 @@ git commit -m "Ваше сообщения"
 git push
 ```
 7. Откройте pull-request. И назначьте ревьюера пользователя `BIGHERR`.
+
+
+## Полезные ссылки
+
+Интерактивный мануал: https://githowto.com/ru
+Краткая информация по командам: https://proglib.io/p/git-for-half-an-hour/
