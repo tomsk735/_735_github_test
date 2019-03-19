@@ -43,7 +43,7 @@ git commit -m "Ваше сообщения"
 ```
 6. Запуште измениния в удаленный репозиторий.
 ```
-git push
+git push origin <Название вашей ветки>
 ```
 7. Откройте pull-request. И назначьте ревьюера пользователя `BIGHERR`.
 
@@ -51,4 +51,5 @@ git push
 ## Полезные ссылки
 
 Интерактивный мануал: https://githowto.com/ru
+
 Краткая информация по командам: https://proglib.io/p/git-for-half-an-hour/
