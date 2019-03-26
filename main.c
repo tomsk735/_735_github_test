@@ -11,7 +11,7 @@ typedef struct _person {
 
 void sort(person *list, int n) {
     int new_num;
-    for(int i = 0; i < n; i++) {
+    for(int register i = 0; i < n; i++) {
         do {
            new_num = rand()%n;
         } while(list[new_num].is_printed);
