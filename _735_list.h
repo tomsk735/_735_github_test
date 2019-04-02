@@ -25,7 +25,7 @@
    "8. ========================",
    "9. Koryshev Nikolay Pavlovich ",
    "10. ========================",
-   "11. ========================",
+   "11. Lysykh Alexey Sergeevich",
    "12. Mazurok Oleg Olegovich ",
    "13. Mironov Danila",
    "14. Osipov Daniil Andreevich",
