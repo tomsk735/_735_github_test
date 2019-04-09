@@ -10,7 +10,7 @@
 * 
 *
 * Target MCU        : MCU: MDR1986
-* Description       : Work with Bit Banding
+* Description       : Work with bits
 *
 ********************************************************************************/
 
