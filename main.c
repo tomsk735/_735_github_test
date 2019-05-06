@@ -15,15 +15,17 @@
 ********************************************************************************/
 
 #define REG0_ADDR 0x20000000
-#define REG0 *((volatile insigned long *) (REG0_ADDR))
+#define REG0 *((volatile unsigned long *) (REG0_ADDR))
 
 void set_bit(int bit_num) {
-  *((volatile unsigned long *)(REG0_ADDR + 0x2000000 + bit_num)) = 1;
+  *((volatile unsigned long *)(REG0_ADDR + 0x2000000 + bit_num*4)) = 1;
 }
 
 void reset_bit(int bit_num) {
-  *((volatile unsigned long *)(REG0_ADDR + 0x2000000 + bit_num)) = 0;
+  *((volatile unsigned long *)(REG0_ADDR + 0x2000000 + bit_num*4)) = 0;
 }
+
+static char bait = 4;
 
 struct bitField{
   char flag_a : 1; char flag_b : 1;
@@ -31,8 +33,6 @@ struct bitField{
   char flag_e : 1; char flag_f : 1;
   char flag_g : 1; char flag_h : 1;
 } _bitField;
-
-static char bait = 4;
 
 void main(void){
   // Work with Bit Field
@@ -49,4 +49,3 @@ void main(void){
   bait ^= (1<<0); // (Now, bit 0th = 0) inversion 
   bait ^= (1<<0); // (Now, bit 0th = 1) inversion 
 }
-
