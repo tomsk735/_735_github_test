@@ -11,6 +11,8 @@
 *
 * Target MCU        : MCU: MDR1986
 * Description       : Work with bits. Bit-Band. 
+* 
+* Individual number	: 8
 *
 ********************************************************************************/
 
@@ -32,20 +34,20 @@ struct bitField{
   char flag_g : 1; char flag_h : 1;
 } _bitField;
 
-static char byte = 4;
+static char byte = 0;
 
 void main(void){
   
   //Bit Field
-  _bitField.flag_a = 1;
-  _bitField.flag_a = 0;
+  _bitField.flag_d = 1; //set 8
+  _bitField.flag_d = 0;	//set 0
   
   //Bit Banding
   set_bit(8);
   reset_bit(8);
   
   // Handwork with bits
-  byte |= (1<<0); // set 1 for 0th bit
-  byte &=~(1<<0); // set 0 for 0th bit
+  byte |= (1<<3); // set 8
+  byte &=~(1<<3); // reset to 0
   
 }
