@@ -32,7 +32,7 @@ struct bitField{
   char flag_g : 1; char flag_h : 1;
 } _bitField;
 
-static char bait = 4;
+static char byte = 4;
 
 void main(void){
   
@@ -41,11 +41,11 @@ void main(void){
   _bitField.flag_a = 0;
   
   //Bit Banding
-  set_bit(1);
-  reset_bit(0);
+  set_bit(8);
+  reset_bit(8);
   
   // Handwork with bits
-  bait |= (1<<0); // set 1 for 0th bit
-  bait &=~(1<<0); // set 0 for 0th bit
+  byte |= (1<<0); // set 1 for 0th bit
+  byte &=~(1<<0); // set 0 for 0th bit
   
 }
