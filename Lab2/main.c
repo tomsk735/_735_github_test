@@ -25,19 +25,19 @@ int func3(int a, int b, int c, int d, int e, int f){
 }
 
 void main(void){
-  //func(); // Отвечает за рекурсивный вызов функции без условия выхода
+  //func(); // Recursive function (WARNING)
   
-  //__asm( "MOV R13, #10"); // Попытка напрямую записать значение в SP
+  //__asm( "MOV R13, #10"); // R13 = 10 (ERROR)
   
-  //__asm( "MOV R1, #9999\n" "ADD R13, R1"); // Изменение значения в SP
+  //__asm( "MOV R1, #9999\n" "ADD R13, R1"); // R1 = 9999, R13=(R1+R13) (WARNING)
   
-  //int sum = func3(16,32,48,64,80,96); // Передача параметров в функцию
+  //int sum = func3(16,32,48,64,80,96); // Stack params
   
   /* 
-  int array[5] = {1,2,3,4,5}; // Передача массива в функцию
+  int array[5] = {1,2,3,4,5}; // Stack params
   func2(array);
   */
   
-  //__asm( "MOV R0, #0x2\n" "MSR CONTROL, R0"); // Переключение указателя стека
+  //__asm( "MOV R0, #0x2\n" "MSR CONTROL, R0"); // Two stack pointer
 }
 
