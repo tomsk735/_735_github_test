@@ -56,7 +56,7 @@ void main(void)
   
   #ifdef ARRAYTOFUNC
   {
-	int array[5] = {1,2,3,4,5}; // Stack params
+    int array[5] = {1,2,3,4,5}; // Stack params
     func2(array);
   }
   #endif
