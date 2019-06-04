@@ -17,18 +17,28 @@
 
 #include <stdlib.h>
 #include <stdio.h>
+
+//If you want to choose one version of program, change number of VERSION
+#define VERSION1
+
+#ifdef VERSION2
 int function1(int a, int b, int c, int d, int e, int f) {
-	return (a+b+c+d+e);
+	return (a+b+c+d+e+f);
 }
 
 int main(void){
   int sum = function1(1,2,3,4,5,6);
   return 0;
 }
+#endif
 
-/*void main(void) {
-__asm (
-	"MOV  R1, #9999\n"
-	"ADD  SP, R1"
-);
-}*/
+#ifdef VERSION1
+int function1() {
+	function1();
+}
+
+int main(void){
+  function1();
+  return 0;
+}
+#endif
