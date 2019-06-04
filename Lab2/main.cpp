@@ -45,19 +45,19 @@ void main()
             );
     }
   
-#elif(CODE_SELECTION == 1)
+#elif CODE_SELECTION == 1
     __asm( "MOV R13, #10"); // R13 = 10 (ERROR)
   
-#elif(CODE_SELECTION == 2)
+#elif CODE_SELECTION == 2
     __asm( "MOV R1, #8888\n" "ADD R13, R1"); // R1 = 8888, R13=(R1+R13) (WARNING)
   
-#elif(CODE_SELECTION == 3)
+#elif CODE_SELECTION == 3
     recursion();
   
-#elif(CODE_SELECTION == 4)
+#elif CODE_SELECTION == 4
     int sum = send_params(0x1,0x2,0x3,0x4,0x5,0x6); // Stack params
     
-#elif(CODE_SELECTION == 5)
+#elif CODE_SELECTION == 5
     __asm( "MOV R0, #0x2\n" "MSR CONTROL, R0"); // CONTROL
 #endif
     
