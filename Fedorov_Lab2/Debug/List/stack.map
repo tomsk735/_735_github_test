@@ -1,0 +1,171 @@
+###############################################################################
+#
+# IAR ELF Linker V8.32.3.193/W32 for ARM                  10/Jun/2019  01:14:31
+# Copyright 2007-2019 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\Eugene\Desktop\Study
+#        hard\milandr_shit\lab_3\correct_IAR\Debug\Exe\stack.out
+#    Map file     =  
+#        C:\Users\Eugene\Desktop\Study
+#        hard\milandr_shit\lab_3\correct_IAR\Debug\List\stack.map
+#    Command line =  
+#        -f C:\Users\Eugene\AppData\Local\Temp\EWB1BA.tmp
+#        ("C:\Users\Eugene\Desktop\Study
+#        hard\milandr_shit\lab_3\correct_IAR\Debug\Obj\main.o"
+#        --no_out_extension -o "C:\Users\Eugene\Desktop\Study
+#        hard\milandr_shit\lab_3\correct_IAR\Debug\Exe\stack.out" --redirect
+#        _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb --map
+#        "C:\Users\Eugene\Desktop\Study
+#        hard\milandr_shit\lab_3\correct_IAR\Debug\List\stack.map" --config
+#        "C:\Users\Eugene\Desktop\Study
+#        hard\milandr_shit\lab_3\correct_IAR\MDR32F1.icf" --semihosting --entry
+#        __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor        = *
+__CPP_Exceptions = Disabled
+__CPP_Language   = C++14
+__SystemLibrary  = DLib
+__dlib_version   = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because some modules are built with
+size limitations (and not runtime checking), and --advanced_heap
+was not specified.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x800'0000 { ro section .intvec };
+"P1":  place in [from 0x800'0000 to 0x801'ffff] { ro };
+define block CSTACK with size = 512, alignment = 8 { };
+define block HEAP with size = 8K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'7fff] {
+          rw, block CSTACK, block HEAP };
+keep { section .intvec };
+
+No sections matched the following patterns:
+
+  rw  in "P2"
+
+
+  Section   Kind         Address   Size  Object
+  -------   ----         -------   ----  ------
+"A0":                              0x40
+  .intvec   ro code   0x800'0000   0x40  vector_table_M.o [3]
+                    - 0x800'0040   0x40
+
+"P1":                              0x60
+  .text     ro code   0x800'0040   0x1e  cmain.o [3]
+  .text     ro code   0x800'005e    0x4  low_level_init.o [2]
+  .text     ro code   0x800'0062    0x2  vector_table_M.o [3]
+  .text     ro code   0x800'0064    0xa  main.o [1]
+  .text     ro code   0x800'006e    0x4  exit.o [2]
+  .rodata   const     0x800'0072    0x1  unwind_debug.o [4]
+  .text     ro code   0x800'0074    0xa  cexit.o [3]
+  .text     ro code   0x800'0080   0x14  exit.o [4]
+  .text     ro code   0x800'0094    0xc  cstartup_M.o [3]
+                    - 0x800'00a0   0x60
+
+"P2":                             0x200
+  CSTACK             0x2000'0000  0x200  <Block>
+    CSTACK  uninit   0x2000'0000  0x200  <Block tail>
+                   - 0x2000'0200  0x200
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+   0x800'00a0   0x801'ffff  0x1'ff60
+  0x2000'0200  0x2000'7fff    0x7e00
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module            ro code  ro data  rw data
+    ------            -------  -------  -------
+command line/config:
+    -------------------------------------------
+    Total:
+
+C:\Users\Eugene\Desktop\Study hard\milandr_shit\lab_3\correct_IAR\Debug\Obj: [1]
+    main.o                 10
+    -------------------------------------------
+    Total:                 10
+
+dl7M_tln.a: [2]
+    exit.o                  4
+    low_level_init.o        4
+    -------------------------------------------
+    Total:                  8
+
+rt7M_tl.a: [3]
+    cexit.o                10
+    cmain.o                30
+    cstartup_M.o           12
+    vector_table_M.o       66
+    -------------------------------------------
+    Total:                118
+
+shb_l.a: [4]
+    exit.o                 20
+    unwind_debug.o                   1
+    -------------------------------------------
+    Total:                 20        1
+
+    Gaps                    3
+    Linker created                          512
+-----------------------------------------------
+    Grand Total:          159        1      512
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address  Size  Type      Object
+-----                       -------  ----  ----      ------
+?main                    0x800'0041        Code  Gb  cmain.o [3]
+CSTACK$$Base            0x2000'0000         --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'0200         --   Gb  - Linker created -
+Region$$Table$$Base             0x0         --   Gb  - Linker created -
+Region$$Table$$Limit            0x0         --   Gb  - Linker created -
+__cmain                  0x800'0041        Code  Gb  cmain.o [3]
+__exit                   0x800'0081  0x14  Code  Gb  exit.o [4]
+__iar_debug_exceptions   0x800'0072   0x1  Data  Gb  unwind_debug.o [4]
+__iar_program_start      0x800'0095        Code  Gb  cstartup_M.o [3]
+__low_level_init         0x800'005f   0x4  Code  Gb  low_level_init.o [2]
+__vector_table           0x800'0000        Data  Gb  vector_table_M.o [3]
+_call_main               0x800'004d        Code  Gb  cmain.o [3]
+_exit                    0x800'0075        Code  Gb  cexit.o [3]
+_main                    0x800'005b        Code  Gb  cmain.o [3]
+exit                     0x800'006f   0x4  Code  Gb  exit.o [2]
+main                     0x800'0065   0xa  Code  Gb  main.o [1]
+
+
+[1] = C:\Users\Eugene\Desktop\Study hard\milandr_shit\lab_3\correct_IAR\Debug\Obj
+[2] = dl7M_tln.a
+[3] = rt7M_tl.a
+[4] = shb_l.a
+
+  159 bytes of readonly  code memory
+    1 byte  of readonly  data memory
+  512 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

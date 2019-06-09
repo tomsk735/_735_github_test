@@ -1,0 +1,58 @@
+[
+  {
+    "ID": "c:main.cpp@796@macro@PROGRAMM",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PROGRAMM",
+    "location": {
+      "column": "9",
+      "line": "27",
+      "path": "C:\\Users\\Eugene\\Desktop\\Study hard\\milandr_shit\\lab_3\\correct_IAR\\main.cpp"
+    },
+    "name": "PROGRAMM",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Func#",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int Func(void)",
+    "location": {
+      "column": "5",
+      "line": "29",
+      "path": "C:\\Users\\Eugene\\Desktop\\Study hard\\milandr_shit\\lab_3\\correct_IAR\\main.cpp"
+    },
+    "name": "Func",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Func1#I#I#I#I#I#I#",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int Func1(int, int, int, int, int, int)",
+    "location": {
+      "column": "5",
+      "line": "33",
+      "path": "C:\\Users\\Eugene\\Desktop\\Study hard\\milandr_shit\\lab_3\\correct_IAR\\main.cpp"
+    },
+    "name": "Func1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main#",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void main(void)",
+    "location": {
+      "column": "6",
+      "line": "37",
+      "path": "C:\\Users\\Eugene\\Desktop\\Study hard\\milandr_shit\\lab_3\\correct_IAR\\main.cpp"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  }
+]
