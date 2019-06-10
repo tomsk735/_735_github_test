@@ -1,13 +1,13 @@
 [
   {
-    "ID": "c:main.cpp@796@macro@PROGRAMM",
+    "ID": "c:main.cpp@733@macro@PROGRAMM",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "PROGRAMM",
     "location": {
       "column": "9",
-      "line": "27",
-      "path": "C:\\Users\\Eugene\\Desktop\\Study hard\\milandr_shit\\lab_3\\correct_IAR\\main.cpp"
+      "line": "26",
+      "path": "C:\\Users\\Eugene\\Documents\\GitHub\\_735_github_test\\Fedorov_Lab2\\main.cpp"
     },
     "name": "PROGRAMM",
     "origin": "project_file",
@@ -20,8 +20,8 @@
     "display": "int Func(void)",
     "location": {
       "column": "5",
-      "line": "29",
-      "path": "C:\\Users\\Eugene\\Desktop\\Study hard\\milandr_shit\\lab_3\\correct_IAR\\main.cpp"
+      "line": "28",
+      "path": "C:\\Users\\Eugene\\Documents\\GitHub\\_735_github_test\\Fedorov_Lab2\\main.cpp"
     },
     "name": "Func",
     "origin": "project_file",
@@ -34,8 +34,8 @@
     "display": "int Func1(int, int, int, int, int, int)",
     "location": {
       "column": "5",
-      "line": "33",
-      "path": "C:\\Users\\Eugene\\Desktop\\Study hard\\milandr_shit\\lab_3\\correct_IAR\\main.cpp"
+      "line": "32",
+      "path": "C:\\Users\\Eugene\\Documents\\GitHub\\_735_github_test\\Fedorov_Lab2\\main.cpp"
     },
     "name": "Func1",
     "origin": "project_file",
@@ -48,8 +48,8 @@
     "display": "void main(void)",
     "location": {
       "column": "6",
-      "line": "37",
-      "path": "C:\\Users\\Eugene\\Desktop\\Study hard\\milandr_shit\\lab_3\\correct_IAR\\main.cpp"
+      "line": "36",
+      "path": "C:\\Users\\Eugene\\Documents\\GitHub\\_735_github_test\\Fedorov_Lab2\\main.cpp"
     },
     "name": "main",
     "origin": "project_file",
