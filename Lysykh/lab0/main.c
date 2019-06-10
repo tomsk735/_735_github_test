@@ -39,7 +39,7 @@ char main ()
       s1=(s1>>4); 		
       s1=(s1 | 0x030); 
       printf("Ascii in Dec:%d %d\n",s1,s2);	
-      printf("Ascii in Hex:%x %x",s1,s2);
+      printf("Ascii in Hex:%hhx %hhx",s1,s2);
     }
   return 0;
 }
