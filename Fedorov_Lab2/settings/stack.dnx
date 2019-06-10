@@ -73,7 +73,7 @@
         <mode>0</mode>
     </DisassembleMode>
     <Breakpoints2>
-        <Bp0>_ 0 "STD_CODE2" "{$PROJ_DIR$\main.cpp}.0.1" 0 0 1 "" 0 ""</Bp0>
+        <Bp0>_ 0 "STD_CODE2" "{$PROJ_DIR$\main.cpp}.57.1" 0 0 1 "" 0 ""</Bp0>
         <Bp1>_ 0 "STD_CODE2" "0x08000040" 0 0 1 "" 0 ""</Bp1>
         <Bp2>_ 0 "STD_CODE2" "0x08000044" 0 0 1 "" 0 ""</Bp2>
         <Count>3</Count>
