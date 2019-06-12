@@ -11,8 +11,8 @@
 * Support mail      : koryshev1997@gmail.com
 *
 * Target MCU        : MCU: Milandr MDR1986BE9x
-* Description       : Bitwise access to the data
-*                   : 
+* Description       : Bitwise access to the data with bit field, bit-banding technology 
+*                   : and logic operators of C
 
 * Hardware          : .sch .pcb
 *
@@ -29,6 +29,10 @@ void reset_bit(int bit_num) {
   *((volatile unsigned long *)(REG0_ADDR + 0x2000000 + bit_num*4)) = 0;
 }
 
+char read_bit(int bit_num) {
+  return *((volatile unsigned long *)(REG0_ADDR + 0x2000000 + bit_num*4));
+}
+
 struct bitField{
   char flag_a : 1; char flag_b : 1;
   char flag_c : 1; char flag_d : 1;
@@ -41,13 +45,16 @@ static char bait = 4;
 int main(void){
   // Work with Bit Field
   _bitField.flag_a = 1;
+	char buf1 = _bitField.flag_a;
   _bitField.flag_a = 0;
   // Work with Bit Banding
   set_bit(0);
+	char buf2 = read_bit(0);
   reset_bit(0);
   // Handwork with bits
   
   bait |= (1<<0); // set 1 for 0th bit
+	char buf3 = (bait & (1 << 0));
   bait &=~(1<<0); // set 0 for 0th bit
   
   bait ^= (1<<0); // (Now, bit 0th = 0) inversion 
