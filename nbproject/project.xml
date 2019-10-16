@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.cnd.makeproject</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/make-project/1">
+            <name>LDM_Blink</name>
+            <c-extensions>S</c-extensions>
+            <cpp-extensions>cpp</cpp-extensions>
+            <header-extensions>h</header-extensions>
+            <sourceEncoding>UTF-8</sourceEncoding>
+            <make-dep-projects/>
+            <sourceRootList>
+                <sourceRootElem>../../../../../Intec/MSTN/M100/Inc/Core</sourceRootElem>
+                <sourceRootElem>../../../../../Intec/MSTN/M100/Inc/Device</sourceRootElem>
+                <sourceRootElem>../../../../../Intec/MSTN/M100/Inc/MSTN</sourceRootElem>
+                <sourceRootElem>../../../../../Intec/MSTN/M100/Inc/SPL_MDR</sourceRootElem>
+                <sourceRootElem>../../../Desktop/lib/MDR32F9_1986ВЕ4_2015/Libraries</sourceRootElem>
+                <sourceRootElem>../../../Desktop/emdr1986x-std-per-lib-master</sourceRootElem>
+                <sourceRootElem>../../../../../Intec/MSTN/M100/Inc/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc</sourceRootElem>
+                <sourceRootElem>../../../../../Intec/MSTN/M100/Inc/emdr1986x-std-per-lib-master/CMSIS/CM3/DeviceSupport/MDR32F9Qx/inc</sourceRootElem>
+                <sourceRootElem>../../../../../Intec/MSTN/M100/Inc/emdr1986x-std-per-lib-master/Config</sourceRootElem>
+            </sourceRootList>
+            <confList>
+                <confElem>
+                    <name>Debug</name>
+                    <type>1</type>
+                </confElem>
+                <confElem>
+                    <name>Release</name>
+                    <type>1</type>
+                </confElem>
+            </confList>
+            <formatting>
+                <project-formatting-style>false</project-formatting-style>
+            </formatting>
+        </data>
+    </configuration>
+</project>
