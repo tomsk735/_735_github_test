@@ -1,0 +1,963 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <logicalFolder name="Core" displayName="Core" projectFiles="true">
+        <itemPath>../../../../../Intec/MSTN/M100/Inc/Core/core_cm3.h</itemPath>
+        <itemPath>../../../../../Intec/MSTN/M100/Inc/Core/core_cmFunc.h</itemPath>
+        <itemPath>../../../../../Intec/MSTN/M100/Inc/Core/core_cmInstr.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="Device" displayName="Device" projectFiles="true">
+        <itemPath>../../../../../Intec/MSTN/M100/Inc/Device/MDR32Fx.h</itemPath>
+        <itemPath>../../../../../Intec/MSTN/M100/Inc/Device/system_MDR32F9Qx.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="inc" displayName="inc" projectFiles="true">
+        <logicalFolder name="USB_Library" displayName="USB_Library" projectFiles="true">
+          <itemPath>../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/USB_Library/MDR32F9Qx_usb_CDC.h</itemPath>
+          <itemPath>../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/USB_Library/MDR32F9Qx_usb_default_handlers.h</itemPath>
+          <itemPath>../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/USB_Library/MDR32F9Qx_usb_device.h</itemPath>
+          <itemPath>../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/USB_Library/MDR32F9Qx_usb_handlers.h</itemPath>
+        </logicalFolder>
+        <itemPath>../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_adc.h</itemPath>
+        <itemPath>../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_arinc429r.h</itemPath>
+        <itemPath>../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_arinc429t.h</itemPath>
+        <itemPath>../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_audio.h</itemPath>
+        <itemPath>../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_bkp.h</itemPath>
+        <itemPath>../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_can.h</itemPath>
+        <itemPath>../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_comp.h</itemPath>
+        <itemPath>../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_dac.h</itemPath>
+        <itemPath>../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_dma.h</itemPath>
+        <itemPath>../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_dsp.h</itemPath>
+        <itemPath>../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_ebc.h</itemPath>
+        <itemPath>../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_eeprom.h</itemPath>
+        <itemPath>../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_eth.h</itemPath>
+        <itemPath>../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_i2c.h</itemPath>
+        <itemPath>../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_iwdg.h</itemPath>
+        <itemPath>../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_keypad.h</itemPath>
+        <itemPath>../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_led.h</itemPath>
+        <itemPath>../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_lib.h</itemPath>
+        <itemPath>../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_mil_std_1553.h</itemPath>
+        <itemPath>../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_port.h</itemPath>
+        <itemPath>../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_power.h</itemPath>
+        <itemPath>../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_rst_clk.h</itemPath>
+        <itemPath>../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_sdio.h</itemPath>
+        <itemPath>../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_ssp.h</itemPath>
+        <itemPath>../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_timer.h</itemPath>
+        <itemPath>../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_uart.h</itemPath>
+        <itemPath>../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_usb.h</itemPath>
+        <itemPath>../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_wwdg.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="MSTN" displayName="MSTN" projectFiles="true">
+        <itemPath>../../../../../Intec/MSTN/M100/Inc/MSTN/Arduino_w.h</itemPath>
+        <itemPath>../../../../../Intec/MSTN/M100/Inc/MSTN/mstn.h</itemPath>
+        <itemPath>../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_adc.h</itemPath>
+        <itemPath>../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_button.h</itemPath>
+        <itemPath>../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_clk.h</itemPath>
+        <itemPath>../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_com.h</itemPath>
+        <itemPath>../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_comp.h</itemPath>
+        <itemPath>../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_dac.h</itemPath>
+        <itemPath>../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_eeprom.h</itemPath>
+        <itemPath>../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_eeprom_external.h</itemPath>
+        <itemPath>../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_external_interrupt.h</itemPath>
+        <itemPath>../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_gpio.h</itemPath>
+        <itemPath>../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_i2c.h</itemPath>
+        <itemPath>../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_led.h</itemPath>
+        <itemPath>../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_pwm.h</itemPath>
+        <itemPath>../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_rtc.h</itemPath>
+        <itemPath>../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_spi.h</itemPath>
+        <itemPath>../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_syscalls.h</itemPath>
+        <itemPath>../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_systick_interrupt.h</itemPath>
+        <itemPath>../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_types.h</itemPath>
+        <itemPath>../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_uart.h</itemPath>
+        <itemPath>../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_usb.h</itemPath>
+        <itemPath>../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_version.h</itemPath>
+        <itemPath>../../../../../Intec/MSTN/M100/Inc/MSTN/pins_arduino_w.h</itemPath>
+        <itemPath>../../../../../Intec/MSTN/M100/Inc/MSTN/pins_mstn.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="SPL_MDR" displayName="SPL_MDR" projectFiles="true">
+        <itemPath>../../../../../Intec/MSTN/M100/Inc/SPL_MDR/MDR32F9Qx_board.h</itemPath>
+        <itemPath>../../../../../Intec/MSTN/M100/Inc/SPL_MDR/MDR32F9Qx_config.h</itemPath>
+        <itemPath>../../../../../Intec/MSTN/M100/Inc/SPL_MDR/MDR32F9Qx_lib.h</itemPath>
+        <itemPath>../../../../../Intec/MSTN/M100/Inc/SPL_MDR/MDR32F9Qx_timer.h</itemPath>
+      </logicalFolder>
+      <itemPath>src/main.h</itemPath>
+      <itemPath>src/morze.h</itemPath>
+      <itemPath>src/rxtx.h</itemPath>
+      <itemPath>src/type_custom.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="f1" displayName="Source Files" projectFiles="true">
+      <itemPath>src/main.cpp</itemPath>
+      <itemPath>src/morze.cpp</itemPath>
+      <itemPath>src/rxtx.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="f2" displayName="Startup" projectFiles="true">
+      <itemPath>Startup/startup_mstn_MDR32F9Qx.S</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc</Elem>
+    <Elem>../../../../../Intec/MSTN/M100/Inc/Core</Elem>
+    <Elem>../../../../../Intec/MSTN/M100/Inc/Device</Elem>
+    <Elem>../../../../../Intec/MSTN/M100/Inc/MSTN</Elem>
+    <Elem>../../../../../Intec/MSTN/M100/Inc/SPL_MDR</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>MSTN_Toolchain|MinGW</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <incDir>
+            <pElem>./Startup</pElem>
+            <pElem>./src</pElem>
+            <pElem>C:/Intec/MSTN/M100/Inc/MSTN</pElem>
+            <pElem>C:/Intec/MSTN/M100/Inc/SPL_MDR</pElem>
+            <pElem>C:/Intec/MSTN/M100/Inc/Cpp</pElem>
+            <pElem>C:/Intec/MSTN/M100/Inc/Core</pElem>
+            <pElem>C:/Intec/MSTN/M100/Inc/Device</pElem>
+          </incDir>
+          <commandLine>-mcpu=cortex-m3 -mthumb -gdwarf-2 -MD -Wall -O0 -fdata-sections -ffunction-sections</commandLine>
+          <preprocessorList>
+            <Elem>F_CPU=80000000</Elem>
+            <Elem>MSTN=100</Elem>
+            <Elem>USE_MDR1986VE9x</Elem>
+            <Elem>__DEBUG</Elem>
+            <Elem>__MODE_USER</Elem>
+            <Elem>__STARTUP_CLEAR_BSS</Elem>
+            <Elem>_start=mstn_main</Elem>
+          </preprocessorList>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>./Startup</pElem>
+            <pElem>./src</pElem>
+            <pElem>C:/Intec/MSTN/M100/Inc/MSTN</pElem>
+            <pElem>C:/Intec/MSTN/M100/Inc/SPL_MDR</pElem>
+            <pElem>C:/Intec/MSTN/M100/Inc/Cpp</pElem>
+            <pElem>C:/Intec/MSTN/M100/Inc/Core</pElem>
+            <pElem>C:/Intec/MSTN/M100/Inc/Device</pElem>
+          </incDir>
+          <commandLine>-mcpu=cortex-m3 -mthumb -gdwarf-2 -MD -Wall -O0 -fdata-sections -ffunction-sections -fno-exceptions</commandLine>
+          <preprocessorList>
+            <Elem>F_CPU=80000000</Elem>
+            <Elem>MSTN=100</Elem>
+            <Elem>USE_MDR1986VE9x</Elem>
+            <Elem>__DEBUG</Elem>
+            <Elem>__MODE_USER</Elem>
+            <Elem>__STARTUP_CLEAR_BSS</Elem>
+            <Elem>_start=mstn_main</Elem>
+          </preprocessorList>
+        </ccTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/mstn_templateproject</output>
+          <linkerAddLib>
+            <pElem>C:/Intec/MSTN/M100/Lib/arm-none-eabi</pElem>
+          </linkerAddLib>
+          <commandlineTool>arm-none-eabi-g++</commandlineTool>
+          <linkerLibItems>
+            <linkerOptionItem>-u _printf_float</linkerOptionItem>
+            <linkerOptionItem>-mcpu=cortex-m3</linkerOptionItem>
+            <linkerOptionItem>-mthumb</linkerOptionItem>
+            <linkerOptionItem>-lstdc++</linkerOptionItem>
+            <linkerOptionItem> -lm</linkerOptionItem>
+            <linkerOptionItem>-N -Ttext=0x08003000 -Tdata=0x20000000 </linkerOptionItem>
+            <linkerOptionItem>--specs=nano.specs</linkerOptionItem>
+            <linkerOptionItem>-Wl,--start-group -lgcc -lc -lm -lMSTN-M100 -Wl,--end-group</linkerOptionItem>
+            <linkerOptionItem>-Wl,-gc-sections</linkerOptionItem>
+            <linkerOptionItem>-nostartfiles</linkerOptionItem>
+            <linkerOptionItem>-ffreestanding</linkerOptionItem>
+          </linkerLibItems>
+          <commandLine>-TC:/Intec/MSTN/M100/Lib/arm-none-eabi/MSTN_M100_User.ld -Wl,--start-group -lgcc -lc -lm -lMSTN-M100 -Wl,--end-group</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_adc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_arinc429r.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_arinc429t.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_audio.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_bkp.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_can.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_comp.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_dac.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_dma.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_dsp.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_ebc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_eeprom.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_eth.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_i2c.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_iwdg.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_keypad.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_led.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_lib.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_mil_std_1553.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_port.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_power.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_rst_clk.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_sdio.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_ssp.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_timer.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_uart.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_usb.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_wwdg.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/USB_Library/MDR32F9Qx_usb_CDC.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/USB_Library/MDR32F9Qx_usb_default_handlers.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/USB_Library/MDR32F9Qx_usb_device.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/USB_Library/MDR32F9Qx_usb_handlers.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/Core/core_cm3.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/Core/core_cmFunc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/Core/core_cmInstr.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/Device/MDR32Fx.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/Device/system_MDR32F9Qx.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/MSTN/Arduino_w.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/MSTN/mstn.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_adc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_button.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_clk.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_com.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_comp.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_dac.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_eeprom.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_eeprom_external.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_external_interrupt.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_gpio.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_i2c.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_led.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_pwm.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_rtc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_spi.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_syscalls.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_systick_interrupt.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_types.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_uart.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_usb.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_version.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/MSTN/pins_arduino_w.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/MSTN/pins_mstn.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/SPL_MDR/MDR32F9Qx_board.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/SPL_MDR/MDR32F9Qx_config.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/SPL_MDR/MDR32F9Qx_lib.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/SPL_MDR/MDR32F9Qx_timer.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Startup/startup_mstn_MDR32F9Qx.S" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/main.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/morze.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/morze.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/rxtx.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/rxtx.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/type_custom.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>MSTN|MinGW</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+          <stripSymbols>true</stripSymbols>
+          <incDir>
+            <pElem>./Startup</pElem>
+            <pElem>./src</pElem>
+          </incDir>
+          <commandLine>-mcpu=cortex-m3 -mthumb -MD -Wall -O2 -fdata-sections -ffunction-sections</commandLine>
+          <preprocessorList>
+            <Elem>F_CPU=80000000</Elem>
+            <Elem>MSTN=100</Elem>
+            <Elem>USE_MDR1986VE9x</Elem>
+            <Elem>__MODE_USER</Elem>
+            <Elem>__NO_SYSTEM_INIT</Elem>
+            <Elem>__STARTUP_CLEAR_BSS</Elem>
+            <Elem>_start=mstn_main</Elem>
+          </preprocessorList>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <incDir>
+            <pElem>./Startup</pElem>
+            <pElem>./src</pElem>
+            <pElem>../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc</pElem>
+            <pElem>../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/src</pElem>
+            <pElem>../../../../../Intec/MSTN/M100/Inc/Core</pElem>
+            <pElem>../../../../../Intec/MSTN/M100/Inc/Device</pElem>
+            <pElem>../../../../../Intec/MSTN/M100/Inc/MSTN</pElem>
+            <pElem>../../../../../Intec/MSTN/M100/Inc/SPL_MDR</pElem>
+          </incDir>
+          <commandLine>-mcpu=cortex-m3 -mthumb -MD -Wall -O2 -fdata-sections -ffunction-sections -fno-exceptions</commandLine>
+          <preprocessorList>
+            <Elem>F_CPU=80000000</Elem>
+            <Elem>MSTN=100</Elem>
+            <Elem>USE_MDR1986VE9x</Elem>
+            <Elem>__MODE_USER</Elem>
+            <Elem>__NO_SYSTEM_INIT</Elem>
+            <Elem>__STARTUP_CLEAR_BSS</Elem>
+            <Elem>_start=mstn_main</Elem>
+          </preprocessorList>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <linkerAddLib>
+            <pElem>C:/Intec/MSTN/M100/Lib/arm-none-eabi</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerOptionItem>-u _printf_float</linkerOptionItem>
+            <linkerOptionItem>-mcpu=cortex-m3</linkerOptionItem>
+            <linkerOptionItem>-mthumb</linkerOptionItem>
+            <linkerOptionItem>-lstdc++</linkerOptionItem>
+            <linkerOptionItem>-nostartfiles</linkerOptionItem>
+            <linkerOptionItem>-lm</linkerOptionItem>
+            <linkerOptionItem>-N -Ttext=0x08003000 -Tdata=0x20000000</linkerOptionItem>
+            <linkerOptionItem>--specs=nano.specs</linkerOptionItem>
+            <linkerOptionItem>-Wl,--start-group -lgcc -lc -lm -lMSTN-M100 -Wl,--end-group</linkerOptionItem>
+            <linkerOptionItem>-Wl,-gc-sections</linkerOptionItem>
+            <linkerOptionItem>-ffreestanding</linkerOptionItem>
+          </linkerLibItems>
+          <commandLine>-TC:/Intec/MSTN/M100/Lib/arm-none-eabi/MSTN_M100_User.ld -Wl,--start-group -lgcc -lc -lm -lMSTN-M100 -Wl,--end-group</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_adc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_arinc429r.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_arinc429t.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_audio.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_bkp.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_can.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_comp.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_dac.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_dma.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_dsp.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_ebc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_eeprom.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_eth.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_i2c.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_iwdg.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_keypad.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_led.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_lib.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_mil_std_1553.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_port.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_power.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_rst_clk.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_sdio.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_ssp.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_timer.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_uart.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_usb.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/MDR32F9Qx_wwdg.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/USB_Library/MDR32F9Qx_usb_CDC.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/USB_Library/MDR32F9Qx_usb_default_handlers.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/USB_Library/MDR32F9Qx_usb_device.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/LIBGit/emdr1986x-std-per-lib-master/MDR32F9Qx_StdPeriph_Driver/inc/USB_Library/MDR32F9Qx_usb_handlers.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/Core/core_cm3.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/Core/core_cmFunc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/Core/core_cmInstr.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/Device/MDR32Fx.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/Device/system_MDR32F9Qx.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/MSTN/Arduino_w.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/MSTN/mstn.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_adc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_button.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_clk.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_com.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_comp.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_dac.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_eeprom.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_eeprom_external.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_external_interrupt.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_gpio.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_i2c.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_led.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_pwm.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_rtc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_spi.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_syscalls.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_systick_interrupt.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_types.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_uart.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_usb.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/MSTN/mstn_version.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/MSTN/pins_arduino_w.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/MSTN/pins_mstn.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/SPL_MDR/MDR32F9Qx_board.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/SPL_MDR/MDR32F9Qx_config.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/SPL_MDR/MDR32F9Qx_lib.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../../Intec/MSTN/M100/Inc/SPL_MDR/MDR32F9Qx_timer.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Startup/startup_mstn_MDR32F9Qx.S" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/main.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/morze.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/morze.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/rxtx.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/rxtx.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/type_custom.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
