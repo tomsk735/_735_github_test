@@ -18,7 +18,7 @@ void TransmitSymbol (uint8_t *symb) {
  
     printf("Start transmit symbol...\n"); 
  
-    PORT_SetBits(MDR_PORTA, SyncPin1); 
+    PORT_SetBits(MDR_PORTA, StrobePin1); 
  
     for(uint8_t i = 0; i < 8; i++) { 
         if(symb[i] == '.') 
@@ -29,7 +29,7 @@ void TransmitSymbol (uint8_t *symb) {
             break;
         Delay(200); 
     } 
-    PORT_ResetBits(MDR_PORTA, SyncPin1); 
+    PORT_ResetBits(MDR_PORTA, StrobePin1); 
     printf("End transmit symbol!\n"); 
     PORT_ResetBits(MDR_PORTA, TXPin);
 }
@@ -40,7 +40,7 @@ void ReceiveSymbol(uint8_t *symb)
     
     uint8_t i = 0;
     
-    while(PORT_ReadInputDataBit(MDR_PORTA, SyncPin2))
+    while(PORT_ReadInputDataBit(MDR_PORTA, StrobePin2))
     {
         if(PORT_ReadInputDataBit(MDR_PORTA, RXPin) != 0) 
             symb[i] = '.';

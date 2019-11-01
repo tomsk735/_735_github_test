@@ -14,8 +14,8 @@
 #ifndef TYPE_CUSTOM_H
 #define TYPE_CUSTOM_H
 
-#define SyncPin1     PORT_Pin_0
-#define SyncPin2    PORT_Pin_3
+#define StrobePin1     PORT_Pin_0
+#define StrobePin2    PORT_Pin_3
 #define RXPin       PORT_Pin_1
 #define TXPin       PORT_Pin_2
 

@@ -15,8 +15,8 @@
 #include "morze.h"
 #include "rxtx.h"
 
-// SyncPin1    PORT_Pin_0
-// SyncPin2    PORT_Pin_3
+// StrobePin1    PORT_Pin_0
+// StrobePin2    PORT_Pin_3
 // RXPin       PORT_Pin_1
 // TXPin       PORT_Pin_2
 
@@ -27,22 +27,22 @@ void PinInitA       (PORT_OE_TypeDef mode, uint16_t pin);
 
 int main()
 {   
-    uint8_t counter = 0, symbol_tx[8], symbol_rx[8], numbBit = 0, tempI = 255;
+    uint8_t counter = 0, symbol_tx[8], symbol_rx[8], numbBit = 0, tempValue = 255;
     //clk_CoreConfig(RST_CLK_CPU_PLLsrcHSEdiv1, RST_CLK_CPU_PLLmul10);
     button_Init();
     PinInitA(PORT_OE_OUT, TXPin);
     PinInitA(PORT_OE_IN, RXPin);
-    PinInitA(PORT_OE_OUT, SyncPin1);
-    PinInitA(PORT_OE_IN, SyncPin2);
+    PinInitA(PORT_OE_OUT, StrobePin1);
+    PinInitA(PORT_OE_IN, StrobePin2);
     
     while(1) {
         
         
-        if (PORT_ReadInputDataBit(MDR_PORTA, SyncPin2)) {
+        if (PORT_ReadInputDataBit(MDR_PORTA, StrobePin2)) {
             ClearSymbol(symbol_rx);
             ReceiveSymbol(symbol_rx);
-            tempI = MorzeToChar(symbol_rx);
-            tempI == 255 ? printf("Symbol is undefined! \n") : printf("Char: %c \n", tempI);
+            tempValue = MorzeToChar(symbol_rx);
+            tempValue == 255 ? printf("Symbol is undefined! \n") : printf("Char: %c \n", tempValue);
         }
         // Read button
         while (!button_State()) {
@@ -70,8 +70,8 @@ int main()
             if (numbBit == 8) {
                 numbBit = 0;
                 TransmitSymbol(symbol_tx);
-                tempI = MorzeToChar(symbol_tx);
-                tempI == 255 ? printf("Undefined code! \n") : printf("Char: %c \n", tempI);
+                tempValue = MorzeToChar(symbol_tx);
+                tempValue == 255 ? printf("Symbol is undefined! \n") : printf("Char: %c \n", tempValue);
             }
     }
         
