@@ -24,6 +24,9 @@ void clk_CoreConfig (uint32_t div, uint32_t mul);
 void button_Init    (void);
 bool button_State   (void);
 void PinInitA       (PORT_OE_TypeDef mode, uint16_t pin);
+void LedInit        ();
+void LedMorze       (uint8_t *symbols);
+void LedWrite       (bool on_off);
 
 int main()
 {   
@@ -34,6 +37,7 @@ int main()
     PinInitA(PORT_OE_IN, RXPin);
     PinInitA(PORT_OE_OUT, StrobePin1);
     PinInitA(PORT_OE_IN, StrobePin2);
+    LedInit();
     
     while(1) {
         
@@ -41,6 +45,7 @@ int main()
         if (PORT_ReadInputDataBit(MDR_PORTA, StrobePin2)) {
             ClearSymbol(symbol_rx);
             ReceiveSymbol(symbol_rx);
+            LedMorze(symbol_rx);
             tempValue = MorzeToChar(symbol_rx);
             tempValue == 255 ? printf("Symbol is undefined! \n") : printf("Char: %c \n", tempValue);
         }
@@ -80,6 +85,25 @@ int main()
         }
         counter = 0;
         
+    }
+}
+
+void LedMorze (uint8_t *symbols) {
+    for (uint8_t i = 0; i < 8; ++i) {
+        if (symbols[i] == '.') {
+            LedWrite(1);
+            Delay(500);
+        }
+        else if (symbols[i] == '-') {
+            LedWrite(1);
+            Delay(1500);
+        }
+        else {
+            LedWrite(0);
+            break;
+        }
+        LedWrite(0);
+        Delay(500);
     }
 }
 
@@ -130,4 +154,19 @@ void button_Init(void) {
 //Функция считывания текущего состояния кнопки SA4
 bool button_State(void) {
     return PORT_ReadInputDataBit(MDR_PORTD, PORT_Pin_5);
-} 
+}
+
+void LedInit()
+{
+    PORT_InitTypeDef PORT_InitStructure;
+    PORT_InitStructure.PORT_OE = PORT_OE_OUT;
+    PORT_InitStructure.PORT_FUNC = PORT_FUNC_PORT;
+    PORT_InitStructure.PORT_MODE = PORT_MODE_DIGITAL;
+    PORT_InitStructure.PORT_SPEED = PORT_SPEED_MAXFAST;
+    PORT_InitStructure.PORT_Pin = (PORT_Pin_2);
+    PORT_Init(MDR_PORTC, &PORT_InitStructure);
+}
+
+void LedWrite (bool on_off) {
+    PORT_WriteBit(MDR_PORTC, PORT_Pin_2, on_off ? Bit_SET : Bit_RESET);
+}
